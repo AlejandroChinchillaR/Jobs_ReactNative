@@ -9,6 +9,9 @@ This project is a mobile application built using React Native, Expo, and Axios t
 - **Job Details**: Detailed information provided for each job listing, including job description, requirements, and location.
 - **Apply to Jobs**: Users can apply to job listings by being redirected to the job website.
 
+
+https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/c4ed616b-59ee-4027-8145-77cfa0bebfda
+
 ## Prerequisites
 
 - Node.js (version 16.0 or higher) installed
