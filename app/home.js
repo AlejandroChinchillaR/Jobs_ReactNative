@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { SafeAreaView, ScrollView, View, Text } from "react-native";
+import { SafeAreaView, ScrollView, View } from "react-native";
 import { Stack, useRouter } from "expo-router";
+
 import { COLORS, icons, images, SIZES } from "../constants";
 import {
   Nearbyjobs,
   Popularjobs,
   ScreenHeaderBtn,
-  LeftRightAlignment,
   Welcome,
 } from "../components";
 
@@ -29,27 +29,28 @@ const Home = () => {
           headerTitle: "",
         }}
       />
-        <ScrollView showsVerticalScrollIndicator={false}>
-          <View
-            style={{
-              flex: 1,
-              padding: SIZES.medium,
+
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <View
+          style={{
+            flex: 1,
+            padding: SIZES.medium,
+          }}
+        >
+          <Welcome
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            handleClick={() => {
+              if (searchTerm) {
+                router.push(`/search/${searchTerm}`)
+              }
             }}
-          >
-            <Welcome
-              searchTerm={searchTerm}
-              setSearchTerm={setSearchTerm}
-              handleClick={() => {
-                if (searchTerm) {
-                  router.push(`/search/${searchTerm}`)
-                }
-              }}
-            />
-  
-            <Popularjobs />
-            <Nearbyjobs />
-          </View>
-        </ScrollView>
+          />
+
+          <Popularjobs />
+          <Nearbyjobs />
+        </View>
+      </ScrollView>
     </SafeAreaView>
   );
 };
