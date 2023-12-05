@@ -1,6 +1,13 @@
 # JobsReactNative
 
-This project is a mobile application built using React Native, Expo, and Axios to consume an API for displaying job listings.
+This project is a mobile application built using React Native, Expo, and Axios to allow users to search for various job listings, filter them by job type, view detailed job information, and apply to available job positions.
+
+## Features
+
+- **Search Jobs**: Users can search for job listings based on keywords and view a list of available jobs.
+- **Filter by Job Type**: Filtering options available to narrow down job listings based on job types or categories.
+- **Job Details**: Detailed information provided for each job listing, including job description, requirements, and location.
+- **Apply to Jobs**: Users can apply to job listings by being redirected to the job website.
 
 ## Prerequisites
 
@@ -13,7 +20,7 @@ This project is a mobile application built using React Native, Expo, and Axios t
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/JobsReactNative.git
+    git clone git@github.com:AlejandroChinchillaR/Jobs_ReactNative.git
     cd JobsReactNative
     ```
 
@@ -51,11 +58,3 @@ This project is a mobile application built using React Native, Expo, and Axios t
 - Axios: A promise-based HTTP client for making API requests.
 - Node.js (version 16.0 or higher): JavaScript runtime environment.
 - JSX: A syntax extension for JavaScript used with React to describe UI components.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or want to enhance the application, feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
