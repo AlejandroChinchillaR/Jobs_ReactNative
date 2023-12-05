@@ -11,6 +11,8 @@ This project is a mobile application built using React Native, Expo, and Axios t
 
 
 https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/c4ed616b-59ee-4027-8145-77cfa0bebfda
+https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/e2420968-784d-4232-a1c5-31e7205da12b
+https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/bd6f0d33-2095-497c-98e5-04d6e23325a4
 
 ## Prerequisites
 
