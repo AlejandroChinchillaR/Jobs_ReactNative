@@ -3,9 +3,9 @@
 This project is a mobile application built using React Native, Expo, and Axios to allow users to search for various job listings, filter them by job type, view detailed job information, and apply to available job positions.
 
 ## Video
-[SearchJob - Video](https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/c4ed616b-59ee-4027-8145-77cfa0bebfda)
-[ApplyJob - Video](https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/7a3e15ff-ef6b-4a0f-85ca-ba36969ab972)
-[FilterJob - Video](https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/190cfed0-6532-4700-bf97-0c3a3f40b62e)
+- [SearchJob - Video](https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/c4ed616b-59ee-4027-8145-77cfa0bebfda)
+- [ApplyJob - Video](https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/7a3e15ff-ef6b-4a0f-85ca-ba36969ab972)
+- [FilterJob - Video](https://github.com/AlejandroChinchillaR/Jobs_ReactNative/assets/104936330/190cfed0-6532-4700-bf97-0c3a3f40b62e)
 
 
 ## Features
