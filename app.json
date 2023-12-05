@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "RNApp",
-    "slug": "RNApp"
+    "slug": "RNApp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "62977c21-b172-4ffc-8df2-4244318b5410"
+      }
+    },
+    "android": {
+      "package": "com.tyrantseye.RNApp"
+    }
   }
 }
